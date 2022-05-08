@@ -1,0 +1,7 @@
+LIBRARY "DarkModeTitleBarMod"
+
+EXPORTS
+    OnInitialize = OnInitialize @ 1
+    OnAfterChangeWindowSize = OnAfterChangeWindowSize @ 2
+    OnFinalize = OnFinalize @ 3
+    OnWmSize = OnWmSize @ 4
